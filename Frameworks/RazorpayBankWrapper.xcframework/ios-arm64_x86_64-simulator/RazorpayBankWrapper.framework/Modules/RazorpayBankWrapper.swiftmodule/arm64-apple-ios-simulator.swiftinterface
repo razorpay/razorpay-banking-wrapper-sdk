@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RazorpayPaymentBank
+// swift-module-flags: -target arm64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RazorpayBankWrapper
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import Foundation
 import Razorpay
@@ -10,22 +10,22 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-public struct PaymentData {
-  public func getData() -> [Swift.String : Any]?
-}
 @_hasMissingDesignatedInitializers public class RazorpayPayment {
   @objc deinit
-  public static func initialize(delegate: (any RazorpayPaymentBank.RazorpayPaymentDelegate)?) -> RazorpayPaymentBank.RazorpayPayment
-  weak public var delegate: (any RazorpayPaymentBank.RazorpayPaymentDelegate)?
+  public static func initialize(delegate: (any RazorpayBankWrapper.RazorpayPaymentDelegate)?) -> RazorpayBankWrapper.RazorpayPayment
+  weak public var delegate: (any RazorpayBankWrapper.RazorpayPaymentDelegate)?
   public func open(options: [Swift.String : Any?], displayVC: UIKit.UIViewController? = nil)
 }
 public protocol RazorpayPaymentDelegate : AnyObject {
-  func onPaymentSuccess(paymentData: RazorpayPaymentBank.PaymentData)
-  func onPaymentFail(code: Swift.Int, response: Swift.String?, paymentData: RazorpayPaymentBank.PaymentData?)
+  func onPaymentSuccess(paymentData: RazorpayBankWrapper.PaymentData)
+  func onPaymentFail(code: Swift.Int, response: Swift.String?, paymentData: RazorpayBankWrapper.PaymentData?)
   func showLoader()
   func hideLoader()
 }
 public struct RZPError : Swift.Error, Foundation.LocalizedError {
   public let code: Swift.Int
   public let description: Swift.String
+}
+public struct PaymentData {
+  public func getData() -> [Swift.String : Any]?
 }

@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "RazorpayPaymentBank",
+    name: "RazorpayBankWrapper",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "RazorpayPaymentBank",
-            targets: ["RazorpayPaymentBank"]
+            name: "RazorpayBankWrapper",
+            targets: ["RazorpayBankWrapper"]
         ),
     ],
     dependencies: [
@@ -17,8 +17,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "RazorpayPaymentBank",
-            path: "Frameworks/RazorpayPaymentBank.xcframework"
+            name: "RazorpayBankWrapper",
+            path: "Frameworks/RazorpayBankWrapper.xcframework"
         ),
     ],
     swiftLanguageVersions: [.v5]
