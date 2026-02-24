@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "RazorpayBankWrapper",
-            targets: ["RazorpayBankWrapper"]
+            targets: ["RazorpayBankWrapperShim"]
         ),
     ],
     dependencies: [
@@ -19,6 +19,13 @@ let package = Package(
         .binaryTarget(
             name: "RazorpayBankWrapper",
             path: "Frameworks/RazorpayBankWrapper.xcframework"
+        ),
+        .target(
+            name: "RazorpayBankWrapperShim",
+            dependencies: [
+                "RazorpayBankWrapper",
+                .product(name: "RazorpayCheckout", package: "razorpay-pod"),
+            ]
         ),
     ],
     swiftLanguageVersions: [.v5]
