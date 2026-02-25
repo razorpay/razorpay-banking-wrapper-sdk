@@ -64,7 +64,7 @@ final class PaymentViewModel: ObservableObject, RazorpayPaymentDelegate {
     @Published var merchantId: String = "NSldDW5aLvEqP0"
     @Published var encryptedRequestParameter: String = ""
     @Published var digitalSignature: String = #""#
-    @Published var authKey: String = "bnRycEByYXpvcnBheS5jb206QTdmIVE5bSRSMnhA"
+    @Published var authKey: String = ""
     @Published var bank: String = "hdfc"
     @Published var selectedEnvironment: String = "dev"
 
