@@ -61,7 +61,7 @@ final class PaymentViewModel: ObservableObject, RazorpayPaymentDelegate {
     @Published var customConfigType: String = ""
 
     // Input fields
-    @Published var merchantId: String = "NSldDW5aLvEqP0"
+    @Published var merchantId: String = ""
     @Published var encryptedRequestParameter: String = ""
     @Published var digitalSignature: String = #""#
     @Published var authKey: String = ""
