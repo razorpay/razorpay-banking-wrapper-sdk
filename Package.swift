@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "RazorpayBankWrapper",
+    name: "razorpay-banking-wrapper-sdk",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "RazorpayBankWrapper",
+            name: "RazorpayBankingWrapper",
             targets: ["RazorpayBankWrapperShim"]
         ),
     ],
@@ -17,13 +17,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "RazorpayBankWrapper",
-            path: "Frameworks/RazorpayBankWrapper.xcframework"
+            name: "RazorpayBankingWrapper",
+            path: "Frameworks/RazorpayBankingWrapper.xcframework"
         ),
         .target(
             name: "RazorpayBankWrapperShim",
             dependencies: [
-                "RazorpayBankWrapper",
+                "RazorpayBankingWrapper",
                 .product(name: "RazorpayCheckout", package: "razorpay-pod"),
             ]
         ),
