@@ -6,64 +6,64 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		6/qOTDpzvvuBYz3NlMiG022OrnE=
+		t/XVvKRIi94W4edx6wJILQL8cZY=
 		</data>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ylxxb+zGmYje3T5I0CTYIbOCCkw=
+		CSC49I+dUAhp+dJ3fhSBjr2hl70=
 		</data>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hrroD/TOXTzRCYWXAdicHvfW3Jc=
+		BKpgynvOry+7l+ut18Eja9zQJVs=
 		</data>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		yUx1/wsuJv3Udj1eJMNrKOqCTdY=
+		fvunZqQt76qEvtuVEtiou3lApVM=
 		</data>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hrroD/TOXTzRCYWXAdicHvfW3Jc=
+		BKpgynvOry+7l+ut18Eja9zQJVs=
 		</data>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		j4dYfwqD6ueVhO9oAccEospiR5g=
+		YZ1qn3LrTMb+LGvf7HqHuF6HHfo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0KuLgT35S7982p6lx1VfSDHqRQYiTrSFQ5RVuIS8es=
+			T5GKioY2Rt8i+dfJCszp9jjDQheFA7YNEa1PCxNFcgw=
 			</data>
 		</dict>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BB0sFk5ujQikuX5goZBpjsXmVI7A/u3YknC9aWfACEI=
+			uU9lEGsglvBP/bMQe8BXOkQi4T+E2y4r/xUd8h1mBLI=
 			</data>
 		</dict>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygX/ySdJOipuosdJ4LhVPWXkdh76gBtdDYeLe0Zocc0=
+			RHvADEIpZBla6ou8MSJeI4jaVSR0KMlG7qyiZ5Pb5jg=
 			</data>
 		</dict>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BB0sFk5ujQikuX5goZBpjsXmVI7A/u3YknC9aWfACEI=
+			uU9lEGsglvBP/bMQe8BXOkQi4T+E2y4r/xUd8h1mBLI=
 			</data>
 		</dict>
-		<key>Modules/RazorpayBankWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/RazorpayBankingWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kq+Gv7kqCgliTv+mADF3N8EEp4FWO2rt3ef20Ygs4rk=
+			aKy1XmWhUBaep1kywignbokL4VFVjlcDS1zk/vdBZa4=
 			</data>
 		</dict>
 	</dict>

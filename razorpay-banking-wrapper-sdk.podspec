@@ -3,7 +3,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "RazorpayBankWrapper"
+  s.name             = "razorpay-banking-wrapper-sdk"
   s.version          = "1.0.0"
   s.summary          = "Razorpay Banking Wrapper SDK for iOS"
   s.description      = "Banking wrapper SDK that integrates with Razorpay. Depends on Razorpay SDK; add this pod only."
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "15.0"
   s.requires_arc     = true
 
-  s.vendored_frameworks = "Frameworks/RazorpayBankWrapper.xcframework"
+  s.vendored_frameworks = "Frameworks/RazorpayBankingWrapper.xcframework"
   s.dependency "razorpay-pod", ">= 1.4.1"
 end

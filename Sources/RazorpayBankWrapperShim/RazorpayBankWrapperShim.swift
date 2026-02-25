@@ -1,3 +1,3 @@
 import Foundation
 import Razorpay
-import RazorpayBankWrapper
+import RazorpayBankingWrapper
