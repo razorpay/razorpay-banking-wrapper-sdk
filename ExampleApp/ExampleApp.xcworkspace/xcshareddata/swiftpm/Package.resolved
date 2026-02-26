@@ -1,0 +1,15 @@
+{
+  "originHash" : "b5efc322dbaf6d4c47da411a6f3f30863c03789d62dcfb75f998099ee923215c",
+  "pins" : [
+    {
+      "identity" : "razorpay-pod",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/razorpay/razorpay-pod.git",
+      "state" : {
+        "revision" : "7b6d23f487eb5d3116bdb04e26f3dcb949b412c7",
+        "version" : "1.5.2"
+      }
+    }
+  ],
+  "version" : 3
+}

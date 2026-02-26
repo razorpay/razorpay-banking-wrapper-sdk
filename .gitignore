@@ -1,0 +1,5 @@
+
+.build
+*.xcworkspacedata
+/.swiftpm/xcode/package.xcworkspace/xcuserdata
+*.xcuserstate
