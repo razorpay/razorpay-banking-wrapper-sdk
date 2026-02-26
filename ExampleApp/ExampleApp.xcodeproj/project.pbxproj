@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240123B62F4F0797005D36C4 /* RazorpayBankingWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 240123B52F4F0797005D36C4 /* RazorpayBankingWrapper */; };
+		86A5AA76A4937809EE6CE29B /* Pods_ExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4211EDD68239DB6703AF793C /* Pods_ExampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2405CE142F4ED9C800725C46 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4211EDD68239DB6703AF793C /* Pods_ExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CE0FA52AB74EED292666FE /* Pods-ExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A915146270741346826A661 /* Pods-ExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2405CE162F4ED9C800725C46 /* ExampleApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = ExampleApp;
 			sourceTree = "<group>";
 		};
@@ -27,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240123B62F4F0797005D36C4 /* RazorpayBankingWrapper in Frameworks */,
+				86A5AA76A4937809EE6CE29B /* Pods_ExampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 				2405CE162F4ED9C800725C46 /* ExampleApp */,
 				2405CE152F4ED9C800725C46 /* Products */,
 				EA2AF438A3A8064DF7A22401 /* Pods */,
+				4E10817DCA0635B5976F6D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +57,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4E10817DCA0635B5976F6D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4211EDD68239DB6703AF793C /* Pods_ExampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA2AF438A3A8064DF7A22401 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				5A915146270741346826A661 /* Pods-ExampleApp.debug.xcconfig */,
+				47CE0FA52AB74EED292666FE /* Pods-ExampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,9 +81,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2405CE1F2F4ED9CB00725C46 /* Build configuration list for PBXNativeTarget "ExampleApp" */;
 			buildPhases = (
+				C36CF90C519EA96C2CF05202 /* [CP] Check Pods Manifest.lock */,
 				2405CE102F4ED9C800725C46 /* Sources */,
 				2405CE112F4ED9C800725C46 /* Frameworks */,
 				2405CE122F4ED9C800725C46 /* Resources */,
+				C3B199DBC6FEE301F653A322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,9 +95,6 @@
 				2405CE162F4ED9C800725C46 /* ExampleApp */,
 			);
 			name = ExampleApp;
-			packageProductDependencies = (
-				240123B52F4F0797005D36C4 /* RazorpayBankingWrapper */,
-			);
 			productName = ExampleApp;
 			productReference = 2405CE142F4ED9C800725C46 /* ExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -109,7 +124,7 @@
 			mainGroup = 2405CE0B2F4ED9C800725C46;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				240123B42F4F0797005D36C4 /* XCLocalSwiftPackageReference "../../razorpay-banking-wrapper-sdk" */,
+				240123B42F4F0797005D36C4 /* XCLocalSwiftPackageReference "razorpay-banking-wrapper-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2405CE152F4ED9C800725C46 /* Products */;
@@ -130,6 +145,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C36CF90C519EA96C2CF05202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B199DBC6FEE301F653A322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2405CE102F4ED9C800725C46 /* Sources */ = {
@@ -265,6 +322,7 @@
 		};
 		2405CE202F4ED9CB00725C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A915146270741346826A661 /* Pods-ExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +352,7 @@
 		};
 		2405CE212F4ED9CB00725C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CE0FA52AB74EED292666FE /* Pods-ExampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,18 +404,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		240123B42F4F0797005D36C4 /* XCLocalSwiftPackageReference "../../razorpay-banking-wrapper-sdk" */ = {
+		240123B42F4F0797005D36C4 /* XCLocalSwiftPackageReference "razorpay-banking-wrapper-sdk" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "../../razorpay-banking-wrapper-sdk";
 		};
 /* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		240123B52F4F0797005D36C4 /* RazorpayBankingWrapper */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RazorpayBankingWrapper;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2405CE0C2F4ED9C800725C46 /* Project object */;
 }
