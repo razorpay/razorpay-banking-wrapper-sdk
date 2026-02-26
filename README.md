@@ -17,16 +17,16 @@ Banking wrapper SDK that integrates with [Razorpay](https://razorpay.com). Add t
    ```
    https://github.com/razorpay/razorpay-banking-wrapper-sdk
    ```
-3. Choose the version or branch you need, then add the package to your app target.
+3. Choose the version or branch you need, then add the package to your app target. Select the **RazorpayBankingWrapper** product.
 
-**Usage:** Use only `import RazorpayBankWrapper` in your app. You may see another module (e.g. RazorpayBankWrapperShim) in the package; that is an internal dependency—do not import it.
+**Usage:** Use only `import RazorpayBankingWrapper` in your app. You may see another module (e.g. RazorpayBankWrapperShim) in the package; that is an internal dependency—do not import it.
 
 ### CocoaPods
 
 Add to your `Podfile`:
 
 ```ruby
-pod 'RazorpayBankWrapper'
+pod 'razorpay-banking-wrapper-sdk'
 ```
 
 Then run:
@@ -35,16 +35,19 @@ Then run:
 pod install
 ```
 
-Open the `.xcworkspace` and use `import RazorpayBankWrapper` in your code.
+Open the `.xcworkspace` and use `import RazorpayBankingWrapper` in your code.
 
 ## Usage
 
 In your Swift code:
 
 ```swift
-import RazorpayBankWrapper
+import RazorpayBankingWrapper
 
 // Use the SDK APIs as needed
+```
+
+Refer to [Razorpay iOS documentation](https://razorpay.com/docs/payments/payment-gateway/ios-integration/) for integration details.
 
 ## License
 
