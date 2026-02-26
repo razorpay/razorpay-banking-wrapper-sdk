@@ -47,7 +47,7 @@ import RazorpayBankingWrapper
 // Use the SDK APIs as needed
 ```
 
-Refer to [Razorpay iOS documentation](https://razorpay.com/docs/payments/payment-gateway/ios-integration/) for integration details.
+For integration support, contact **support@razorpay.com**.
 
 ## License
 
