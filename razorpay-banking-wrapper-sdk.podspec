@@ -1,4 +1,4 @@
-# Be sure to run `pod lib lint razorpay-core-pod.podspec' to ensure this is a
+# Be sure to run `pod lib lint razorpay-banking-wrapper-sdk.podspec' to ensure this is a
 # valid spec before submitting.
 #
 
