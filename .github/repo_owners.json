@@ -2,11 +2,11 @@
   "ownership": {
     "type": "Shared",
     "business_unit": "Payments",
-    "group": "Payments Platform",
-    "sub_group": "Payments Platform",
-    "pod": "Payments Platform",
+    "group": "Pg-growth",
+    "sub_group": "Checkout",
+    "pod": "Checkout",
     "engineering_manager": {
-      "email": "sushma.pathak@razorpay.com"
+      "email": "revanth.m@razorpay.com"
     }
   }
 }
