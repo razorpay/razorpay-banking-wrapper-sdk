@@ -1,12 +1,12 @@
 {
-  "ownership": {
-    "type": "Shared",
-    "business_unit": "Payments",
-    "group": "Payments Platform",
-    "sub_group": "Payments Platform",
-    "pod": "Payments Platform",
-    "engineering_manager": {
-      "email": "sushma.pathak@razorpay.com"
+    "ownership": {
+        "type": "Team Specific",
+        "business_unit": "Platforms",
+        "group": "Checkout",
+        "sub_group": "Checkout",
+        "pod": "Core and Standard Checkout",
+        "engineering_manager": {
+            "email": "revanth.m@razorpay.com"
+        }
     }
-  }
 }
