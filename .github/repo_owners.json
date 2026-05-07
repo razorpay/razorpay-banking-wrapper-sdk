@@ -1,12 +1,12 @@
 {
-  "ownership": {
-    "type": "Shared",
-    "business_unit": "Payments",
-    "group": "Pg-growth",
-    "sub_group": "Checkout",
-    "pod": "Checkout",
-    "engineering_manager": {
-      "email": "revanth.m@razorpay.com"
+    "ownership": {
+        "type": "Team Specific",
+        "business_unit": "Platforms",
+        "group": "Checkout",
+        "sub_group": "Checkout",
+        "pod": "Core and Standard Checkout",
+        "engineering_manager": {
+            "email": "revanth.m@razorpay.com"
+        }
     }
-  }
 }
