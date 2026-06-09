@@ -1,12 +1,12 @@
 {
   "ownership": {
-    "type": "Team Specific",
+    "type": "Shared",
     "business_unit": "Payments",
     "group": "PG Growth",
-    "sub_group": "PG Growth",
-    "pod": "PG Growth",
+    "sub_group": "Optimizer Experience",
+    "pod": "Optimizer Experience",
     "engineering_manager": {
-      "email": "bipin.soni@razorpay.com"
+      "email": "sushma.pathak@razorpay.com"
     }
   }
 }
